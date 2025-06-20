@@ -46,7 +46,8 @@ interface MobileNavMenuProps {
   children: React.ReactNode;
   className?: string;
   isOpen: boolean;
-  onClose: () => void;
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  onClose?: () => void;
 }
 
 export const Navbar = ({ children, className }: NavbarProps) => {
